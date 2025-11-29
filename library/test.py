@@ -15,5 +15,5 @@ from library.services import (
 init_db()
 
 
-create_author(name="leo", bio="ok")
-print("Mualliflar yaratildi.")
+ok=create_author(name="leo", bio="ok")
+print(ok)
